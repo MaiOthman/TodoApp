@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings" android:drawable="@drawable/ic_settings"
+        android:height="33dp" android:width="33dp"/>
+
+    <item android:id="@+id/settings_circle" android:drawable="@drawable/circle_setting"
+        android:height="9dp" android:width="9dp"
+        android:gravity="center"
+        />
+
+</layer-list>
