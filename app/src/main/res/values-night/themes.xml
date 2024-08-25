@@ -16,7 +16,7 @@
     <style name="splash">
         <item name="android:background">@drawable/splash_dark</item>
     </style>
-    <style name="text">
+    <style name="heading">
         <item name="android:textColor">@color/background_dark</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">22sp</item>
@@ -25,5 +25,23 @@
     </style>
     <style name="background">
         <item name="android:background">@color/background_dark</item>
+    </style>
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="font">@font/poppins_regular</item>
+    </style>
+    <style name="edit_box_color">
+        <item name="android:color">@color/dark_blaue</item>
+    </style>
+    <style name="bottomNavigation">
+        <item name="android:background">@color/dark_blaue</item>
+    </style>
+    <style name="addCourse">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="font">@font/poppins_bold</item>
+
     </style>
 </resources>

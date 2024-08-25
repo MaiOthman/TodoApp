@@ -2,7 +2,8 @@
 <com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="157dp"
@@ -12,8 +13,8 @@
             android:id="@+id/app_bar_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/to_do_list"
-            style="@style/text"
+            tools:text="@string/to_do_list"
+            style="@style/heading"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
 
